@@ -1,0 +1,74 @@
+.tracker_container {
+  background: #048c74;
+  width: 100%;
+  height: 100%;
+}
+
+/* form */
+.tracker_container .form {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.tracker_container .dropdown {
+  background: white;
+  border-radius: 5px;
+}
+
+/* info */
+.tracker_container .info {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tracker_container .info_box {
+  padding: 0 10px 0 10px;
+}
+
+/* table */
+.tracker_container .table_tracker {
+  display: flex;
+  justify-content: center;
+}
+
+/* graph */
+.tracker_container .graph {
+  display: flex;
+  justify-content: center;
+}
+
+.tracker_container .graph_card {
+  width: 100%;
+  margin: 10px;
+}
+
+/* map */
+.tracker_container .map {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 250px;
+}
+
+/* reponsive */
+@media only screen and (min-width: 900px) {
+  .tracker_container .app_wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+  .tracker_container .table_tracker {
+    width: 100%;
+  }
+  .tracker_container .table_card {
+    width: 95%;
+  }
+  .tracker_container .map {
+    width: 100%;
+    height: 508px;
+    margin-bottom: 0;
+  }
+  .tracker_container .graph_card {
+    margin: 0 10px 10px 10px;
+  }
+}

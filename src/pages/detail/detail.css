@@ -1,0 +1,46 @@
+.detail {
+  background: linear-gradient(50deg,
+  rgb(47, 241, 154) 0%,
+  rgb(56, 119, 94) 100%);
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detail h3{
+  color: white;
+  font-size: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.detail .infoBox {
+  margin: 10px;
+  text-align: center;
+}
+
+.detail .infoBox h2{
+  color: red;
+}
+
+.detail .info_logo {
+  margin-top: 10px;
+}
+
+.info_logo img {
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.detail_info {
+  display: flex;
+  justify-content: center;
+}
+
+/* graph */
+.detail_graph {
+  width: 90%;
+}

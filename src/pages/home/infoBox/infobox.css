@@ -1,0 +1,15 @@
+.infoBox_cases {
+  margin: 0;
+}
+
+.infoBox_selected {
+  color: red;
+}
+
+.info {
+  padding-bottom: 10px;
+}
+
+.infoBox_content {
+  text-align: center;
+}

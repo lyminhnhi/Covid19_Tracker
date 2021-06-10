@@ -1,0 +1,22 @@
+.table_tracker {
+  padding-bottom: 10px;
+}
+
+.table .sort,
+.table .sort_reverse {
+  cursor: pointer;
+}
+
+.table_paper .table_appbar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+@media only screen and (min-width:900px){
+  /* .table_tracker .table_paper {
+    width: 800px;
+  } */
+}
+
+
+

@@ -1,0 +1,144 @@
+/* signup form */
+#signup {
+  background: #048c74;
+  height: 90vh;
+}
+
+#signup .signup-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: all 0.2s 0.7s;
+}
+
+#signup .signup-form img {
+  width: 150px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+  
+#signup .signup-form .input-field {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  border-radius: 55px;
+    
+  width: 100%;
+  height: 55px;
+  max-width: 380px;
+  margin: 10px 0;
+  padding: 0 0.4rem;
+  background-color: #f0f0f0;
+}
+
+#signup .signup-form .input-field i {
+  text-align: center;
+  line-height: 55px;
+  transition: 0.5s;
+  font-size: 1.1rem;
+  color: #acacac;
+}
+  
+#signup .signup-form .input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+  
+#signup .signup-form .input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+/* signup btn */
+#signup .signup-form .signin-btn {
+  width: 150px;
+  height: 49px;
+  border-radius: 49px;
+  margin: 10px 0;
+
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  color: black;
+}
+
+/* signin social */
+#signup .signup-form .social-text {
+  padding: 0.7rem 0;
+  font-size: 1rem;
+  margin: 0;
+}
+  
+#signup .signup-form .social-media {
+  display: flex;
+  justify-content: center;
+}
+  
+#signup .signup-form .social-icon {
+  height: 46px;
+  width: 46px;
+  margin: 0 0.45rem;
+  font-size: 1.1rem;
+  border-radius: 50%;
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #333;
+}
+  
+#signup .signup-form .social-icon:hover {
+  color: rgb(66, 241, 133);
+  border-color: rgb(125, 241, 169);
+  background: white;
+}
+
+/* panel */
+#signup .signup-panel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+  
+#signup .signup-panel h3 {
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+  
+#signup .signup-panel p {
+  font-size: 0.95rem;
+  padding: 0.7rem 0;
+  margin: 0;
+}
+
+#signup .signup-panel .panel-btn {
+  width: 150px;
+  height: 49px;
+  border-radius: 49px;
+
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  color: black;
+}
+
+#signup .signup-panel .panel-btn a {
+  color: black;
+  text-decoration: none;
+}
